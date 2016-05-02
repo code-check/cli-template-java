@@ -1,0 +1,5 @@
+build:
+  - mvn package
+env:
+  APP_COMMAND: target/bin/cli-example
+test: mocha

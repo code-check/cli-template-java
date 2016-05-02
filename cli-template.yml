@@ -1,0 +1,8 @@
+build:
+  - mvn package
+files:
+  - .gitignore
+  - pom.xml
+  - src/main/java/codecheck/example/CLI.java
+  - src/main/java/codecheck/example/App.java
+command: target/bin/cli-example

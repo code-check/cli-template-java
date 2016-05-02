@@ -1,0 +1,27 @@
+{
+  "name": "codecheck-cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "codecheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/cli-template-java.git"
+  },
+  "keywords": [
+    "codecheck",
+    "cli",
+    "java"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/cli-template-java/issues"
+  },
+  "homepage": "https://github.com/code-check/cli-template-java#README.md",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codecheck": "^0.5.3"
+  }
+}
