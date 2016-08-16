@@ -5,4 +5,5 @@ files:
   - pom.xml
   - src/main/java/codecheck/example/CLI.java
   - src/main/java/codecheck/example/App.java
+main: src/main/java/codecheck/example/App.java
 command: target/bin/cli-example
