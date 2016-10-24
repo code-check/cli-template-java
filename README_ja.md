@@ -1,29 +1,20 @@
-# CLIアプリケーション作成用テンプレート(Java)
+# コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Java)
 
-JavaでCLIアプリケーションを作成するためのテンプレートです。
-
-[src/main/java/codecheck/example/App.java](src/main/java/codecheck/example/App.java)を編集することでCLIアプリケーションを作成することができます。
-
-このテンプレートではCLI作成のユーティリティとして、Commons-CLIを使用していsます。  
-Commons-CLIについての詳細は[Commons-CLIウェブサイト](https://commons.apache.org/proper/commons-cli/)をごらんください。
+[App.java](src/main/java/codecheck/App.java)を編集して、CLIアプリを実装してください。  
+チャレンジ内でファイルの作成が許可されていれば、可読性等のためにファイルを分割する事も可能です。
 
 ## コマンドライン引数の取得方法
-Appクラスでは`run`というstaticメソッドが定義されており、CommandLineクラスが引数として渡されます。
+コマンドライン引数は `main` メソッドの `args` として取得可能です。
 
-``` java
-public class App {
-  public static void run(CommandLine cmd) {
-  }
+```java
+public static void main(String[] args) {
+  // code to run
 }
 ```
 
-通常のパラメータは`cmd.getArgs()`メソッドにより、文字列の配列として取得できます。
-オプション形式の引数を使用する場合はCommons-CLIのOptionsを拡張して使用してください。([src/main/java/codecheck/example/CLI.java](src/main/java/codecheck/example/CLI.java))
-
 ## コマンド実行結果の標準出力への出力
-標準の`System.out.println`メソッドを使用してください。
+標準の`System.out.println`メソッド等を使用してください。
 
 ``` java
-  String arg1 = cmd.getArgs()[0];
-  System.out.println(arg1);
+System.out.println(args);
 ```

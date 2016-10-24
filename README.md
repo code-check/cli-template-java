@@ -1,28 +1,20 @@
-# CLI template for Java
+# Command line application template for Java
 
-This is template app for CLI test.  
-You can make console application by editing [src/main/java/codecheck/example/App.java](src/main/java/codecheck/example/App.java)
-
-It uses Commons-CLI. See detail in [Commons-CLI website](https://commons.apache.org/proper/commons-cli/)
+Implement CLI application by editing [App.java](src/main/java/codecheck/App.java)
+You may add new files to keep your code clean, if it is allowed in your challenge.
 
 ## How to get input parameters
-App class has a static method `run`.
+You can get arguments as `args` in `main` method.
 
-``` java
-public class App {
-  public static void run(CommandLine cmd) {
-  }
+```java
+public static void main(String[] args) {
+  // code to run
 }
 ```
 
-You can get normal arguments as array by `cmd.getArgs()` method.
-
-If you want to use option parameter, you can use Commons-CLI's option feature in [src/main/java/codecheck/example/CLI.java](src/main/java/codecheck/example/CLI.java)
-
 ## How to output result
-You can use `Sytem.out.println` method
+You can use `Sytem.out.println` method to output you result in stdout.
 
 ``` java
-  String arg1 = cmd.getArgs()[0];
-  System.out.println(arg1);
+  System.out.println(args);
 ```
