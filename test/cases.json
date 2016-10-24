@@ -1,0 +1,8 @@
+[
+  { "it": "hoge ->-> hoge",
+    "input": ["hoge"], "output": ["hoge"]},
+  { "it": "hoge, fuga ->-> hoge, fuga",
+    "input": ["hoge", "fuga"], "output": ["hoge", "fuga"]},
+  { "it": "hoge fuga ->-> hoge fuga",
+    "input": ["hoge fuga"], "output": ["hoge fuga"]}
+]
