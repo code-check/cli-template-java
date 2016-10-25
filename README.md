@@ -18,3 +18,8 @@ You can use `Sytem.out.println` method to output you result in stdout.
 ``` java
   System.out.println(args);
 ```
+
+## Install External Libraries
+If you want to use external libraries, do the following:
+
+- Add dependencies settings in [pom.xml](pom.xml)

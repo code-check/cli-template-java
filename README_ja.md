@@ -18,3 +18,8 @@ public static void main(String[] args) {
 ``` java
 System.out.println(args);
 ```
+
+## 外部ライブラリの追加方法
+外部ライブラリを使用する場合は以下の手順で実施してください。
+
+- [pom.xml](pom.xml) に依存ライブラリの追加
