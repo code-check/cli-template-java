@@ -1,6 +1,6 @@
 # Command line application template for Java
 
-Implement CLI application by editing [App.java](src/main/java/codecheck/App.java)
+Implement CLI application by editing [App.java](src/main/java/track/App.java)
 You may add new files to keep your code clean, if it is allowed in your challenge.
 
 ## How to get input parameters

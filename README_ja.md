@@ -1,6 +1,6 @@
 # コマンドラインアプリケーション(CLI アプリ)作成用テンプレート(Java)
 
-[App.java](src/main/java/codecheck/App.java)を編集して、CLIアプリを実装してください。  
+[App.java](src/main/java/track/App.java)を編集して、CLIアプリを実装してください。  
 チャレンジ内でファイルの作成が許可されていれば、可読性等のためにファイルを分割する事も可能です。
 
 ## コマンドライン引数の取得方法

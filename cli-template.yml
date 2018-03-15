@@ -1,8 +1,11 @@
 build:
   - mvn package
 files:
-  - .gitignore
   - pom.xml
-  - src/main/java/codecheck/App.java
-main: src/main/java/codecheck/App.java
+  - src/main/java/track/App.java
+main: src/main/java/track/App.java
 command: target/bin/theapp
+envConf:
+  imageName: givery/track-java-8
+  cacheDirs:
+    - /root/.m2
