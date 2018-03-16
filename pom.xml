@@ -4,7 +4,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>codecheck</groupId>
+  <groupId>track</groupId>
   <artifactId>theapp</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
@@ -41,7 +41,7 @@
               <assembleDirectory>target</assembleDirectory>
               <programs>
                 <program>
-                  <mainClass>codecheck.App</mainClass>
+                  <mainClass>track.App</mainClass>
                   <name>theapp</name>
                 </program>
               </programs>
